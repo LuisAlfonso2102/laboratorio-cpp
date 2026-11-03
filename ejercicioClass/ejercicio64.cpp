@@ -13,7 +13,7 @@
   =====================================================*/
 
   #include <iostream>
-#include <clocale>  // Necesario para setlocale (tildes y ñ)
+  #include <clocale>
 
 using namespace std;
 
@@ -25,8 +25,8 @@ int triplicarPorValor(int c)
     return c;  // Devuelve el resultado
 }
 
-// b. Función triplicarPorReferencia:
-// Recibe la variable mediante un parámetro por referencia (usando '&'),
+//Función triplicarPorReferencia:
+// Recibe la variable mediante un parámetro por referencia usando &,
 // lo que crea un alias que modifica directamente la variable original en el main.
 void triplicarPorReferencia(int &c)
 {
@@ -42,11 +42,10 @@ int main()
     int cuenta = 5;
 
     cout << "==================================================" << endl;
-    cout << "     COMPARACIÓN: PASO POR VALOR VS REFERENCIA    " << endl;
+    cout << "     Comparación: Paso por Valor vs Referencia    " << endl;
     cout << "==================================================" << endl << endl;
 
-    // --- PRUEBA 1: triplicarPorValor ---
-    cout << "1. Método triplicarPorValor:" << endl;
+    cout << "1. Metodo triplicarPorValor:" << endl;
     cout << "   Valor original de cuenta en main: " << cuenta << endl;
     
     // Como es por valor, se pasa una copia. Para ver el cambio en main,
@@ -58,7 +57,6 @@ int main()
     // Reiniciamos cuenta a 5 para el siguiente experimento
     cuenta = 5;
 
-    // --- PRUEBA 2: triplicarPorReferencia ---
     cout << "2. Método triplicarPorReferencia:" << endl;
     cout << "   Valor original de cuenta en main: " << cuenta << endl;
     
@@ -68,7 +66,7 @@ int main()
     
     cout << "   Valor de cuenta después de la función por referencia: " << cuenta << endl << endl;
 
-    // --- COMPARACIÓN Y CONTRASTE ---
+    //La comprobacion y contraste de ambos metodos se hace en la siguiente sección:
     cout << "==================================================" << endl;
     cout << " COMPARACIÓN Y CONTRASTE DE AMBOS MÉTODOS:" << endl;
     cout << "==================================================" << endl;
