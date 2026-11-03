@@ -54,7 +54,7 @@ int main()
     
     cout << "   Valor de cuenta después de la función por valor: " << cuenta << endl << endl;
 
-    // Reiniciamos cuenta a 5 para el siguiente experimento
+    //Reiniciamos cuenta a 5 para el siguiente experimento
     cuenta = 5;
 
     cout << "2. Método triplicarPorReferencia:" << endl;

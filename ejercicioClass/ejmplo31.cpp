@@ -1,6 +1,6 @@
 /*====================================================
     =   Programa: Ejemplo19.cpp
-    =   Fecha: 3 de octubre de 2026
+    =   Fecha: 9 de octubre de 2026
     =   Autor: Luis Alfonso Reyes
     =   Asignaruta: DIA044-Programacion Basica
     =   No. de cuenta: 20192002012
